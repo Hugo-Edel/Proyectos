@@ -123,17 +123,18 @@ millikan-simulation/
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/millikan-simulation.git
-   cd millikan-simulation
+   git clone https://github.com/Hugo-Edel/Proyectos/blob/main/Millikan
+   cd Simulacion_ExperimentoDeMillikan.mlx
    ```
 
 2. Abre MATLAB y navega al directorio del proyecto.
 
 3. Ejecuta el script principal:
    ```matlab
-   run('src/millikan_main.m')
+   open('src/Simulacion_ExperimentoDeMillikan.mlx')
    ```
 
+Luego haz clic en **Run** o presiona Ctrl+Enter en cada sección.
 El script generará automáticamente todas las gráficas y mostrará en consola los valores estimados de la carga elemental y el error calculado.
 
 ---
