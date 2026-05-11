@@ -94,18 +94,19 @@ El circuito RC mostró un comportamiento logarítmico en la acumulación de carg
 millikan-simulation/
 │
 ├── src/
-│   ├── millikan_main.m          # Script principal: caída y ascenso de gotas
-│   ├── circuito_RC.m            # Simulación del circuito RC
-│   └── ajuste_estadistico.m     # Regresión lineal y estimación de e
+│   ├── Simulacion_ExperimentoDeMillikan.mlx #Script
 │
 ├── results/
-│   ├── trayectorias_caida.png   # Gráfico de velocidad vs posición en caída
-│   ├── trayectorias_ascenso.png # Gráfico de velocidad vs posición en ascenso
-│   ├── ajuste_lineal.png        # Scatter plot de carga vs múltiplo estimado
-│   ├── histograma_multiplos.png # Distribución de múltiplos de e
-│   ├── carga_capacitor.png      # Carga acumulada en el capacitor vs tiempo
-│   └── campo_electrico.png      # Intensidad de campo vs tiempo
-│
+│   ├── WithoutElectricField.jpg   # Gráfico de velocidad vs posición en caída
+│   ├── WithElectricField.jpg # Gráfico de velocidad vs posición en ascenso
+│   ├── LinearRegressionEstimationOfCharge.jpg        # Scatter plot de carga vs múltiplo estimado
+│   ├── ElementaryChargeMultipleDistribution.jpg # Distribución de múltiplos de e
+│   ├── AccumChargeInCapacitor.jpg      # Carga acumulada en el capacitor vs tiempo
+│   ├── AccumVoltageInCapacitor.jpg      # Voltaje acumulado en el capacitor vs tiempo
+│   ├── ElectricFieldIntensity.jpg      # Intensidad de campo electrico vs tiempo
+|   ├── VoltageToPositionDifference.jpg # Voltaje en el capacitor vs posicion
+|   ├── VoltageToTimeDifference.jpg # Voltaje en el capacitor vs tiempo
+|   └── ChargeInTheCapacitorDist.jpg # Distribucion de carga en el capacitor
 └── README.md
 ```
 
